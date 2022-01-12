@@ -10,7 +10,19 @@ table {
 }
 
 td, th {
-  border: 1px solid #eee;
+  border: 1px solid #dddddd;
   min-width: 50px;
-  padding: 2px 4px;
+  padding: 8px;
+  font-size: 16px;
+  text-align: left;
 }
+tr:nth-child(odd) {
+  background-color: #dbdbdb;
+}
+
+th{
+  background-color: #95A5A6;
+  text-transform: uppercase;
+}
+
+
